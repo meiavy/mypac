@@ -6825,5 +6825,6 @@ function regExpMatch(url, pattern) {    try { return new RegExp(pattern).test(ur
 	if (regExpMatch(url, "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zuola\\.com")) return 'SOCKS5  127.0.0.1:10808';
 	if (regExpMatch(url, "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zvereff\\.com")) return 'SOCKS5  127.0.0.1:10808';
 	if (regExpMatch(url, "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zyxel\\.com")) return 'SOCKS5  127.0.0.1:10808';
+	if (regExpMatch(url, "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?python\\.org")) return 'SOCKS5  127.0.0.1:10808';
 	return 'DIRECT';
 }
